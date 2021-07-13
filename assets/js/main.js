@@ -36,8 +36,6 @@ $(function () {
       let isModulo = $(this).hasClass("modulo");
       let isLink = $(this).hasClass("link");
 
-      console.log('QUEM???', $(this));
-
       $next.slideToggle("fast");
       $this.parent().toggleClass('open');
 
