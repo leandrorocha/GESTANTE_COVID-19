@@ -188,7 +188,7 @@ footer {
 #modulo2 .step:last-child .line {
     top: 25px;
     left: 11.5px;
-    height: 94%;
+    height: 92%;
 }
 
 #modulo3 .step:last-child .line {
@@ -333,6 +333,10 @@ footer {
 }
 ul {
     padding-inline-start: 20px !important;
+}
+
+.divisaoTopico {
+    height: 100px;
 }
 
 /* Imagem do Box Verde */
@@ -722,6 +726,10 @@ footer {
     /* Tablet */
 }
 @media (max-width: 980px) {
+    .divisaoTopico {
+        height: 60px;
+    }
+
     .stepContainer {
         width: 50%;
         height: 100%;
@@ -747,6 +755,10 @@ footer {
     .carousel-control-next,
     .carousel-control-prev {
         margin: 60px;
+    }
+
+    .imgPersonagem img {
+        max-width: 100px;
     }
 }
 

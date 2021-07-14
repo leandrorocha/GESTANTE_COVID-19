@@ -16,6 +16,16 @@ $(window).scroll(function () {
   }
 });
 
+$(function () {
+  $('a[href*="#"]:not([href="#"])').click(function () {
+    var target = $(this.hash);
+
+    $('html,body').stop().animate({
+      scrollTop: target.offset().top - 130
+    }, 'linear');
+  })
+});
+
 /*Controla funções no Menu Lateral*/
 $(function () {
   class Accordion {
@@ -69,13 +79,13 @@ $(function () {
 });
 
 /* Deixa a aula atual aberta */
-if (!$('#modulo1').find(".step .contentMenu").hasClass("open")) {
+if (!$('#modulo1').find(".step:last-child .contentMenu").hasClass("open")) {
   $("#modulo1 .step:last-child .line").hide();
 }
-if (!$('#modulo2').find(".step .contentMenu").hasClass("open")) {
+if (!$('#modulo2').find(".step:last-child .contentMenu").hasClass("open")) {
   $("#modulo2 .step:last-child .line").hide();
 }
-if (!$('#modulo3').find(".step .contentMenu").hasClass("open")) {
+if (!$('#modulo3').find(".step:last-child .contentMenu").hasClass("open")) {
   $("#modulo3 .step:last-child .line").hide();
 }
 
