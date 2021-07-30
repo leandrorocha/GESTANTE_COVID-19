@@ -994,18 +994,25 @@ footer {
     border-radius: 20px;
     background-color: #195E27;
     cursor: pointer;
-    color: white;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .contentCard {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 269px;
-    height: 369px;
-    max-width: 100%;
-    max-height: 100%;
     padding: 0 20px;
+    /* width: 269px; */
+    /* height: 369px; */
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    padding: 0 20px;
+    /* margin: auto; */
+    flex: 1;
 }
 .frontCard,
 .backCard {
