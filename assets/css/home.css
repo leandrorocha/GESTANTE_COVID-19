@@ -1,68 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-body, header, footer{
-    font-family: 'Noto Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+body,
+header,
+footer {
+    font-family: "Noto Sans", sans-serif;
     font-size: 15px;
 }
-.navbar{
+.navbar {
     background-color: white;
 }
 /*Page Home*/
-.fundoCapa{
-    background-color: #195E27;
+.fundoCapa {
+    background-color: #195e27;
 }
-.capa{
-    background-image: url(../images/home/imgCapa.png);
+
+.capa {
+    background-image: url(../images/home/capa.png);
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    
 }
-.capa h1{
-    color: white;
+.capa h1 {
+    color: #ffffff;
     position: absolute;
-    font-size:2.5vw;
+    font-weight: bold;
     left: 20%;
-    transform: translate(-25%);
+    transform: translate(6%);
+
+    font-size: 42px;
+    font-size: 3.5vw;
 }
-#fundoTexto{
+#fundoTexto {
     background-color: #f5f5f5;
 }
-#textoCapa{
+#textoCapa {
     margin: 60px 28% 0px 24%;
-
 }
-
 
 /*Menu Superior*/
-.logo{
+.logo {
     margin: 1% 0% 1% 5%;
 }
-.navbar-nav{
+.navbar-nav {
     margin-right: 5%;
 }
-.navbar-nav li{
+.navbar-nav li {
     margin-right: 40px;
     margin-left: 20px;
     background-color: white;
 }
-.navbar-nav li a{
+.navbar-nav li a {
     color: black;
 }
 
-
 /*Botão*/
-#botao{
+#botao {
     text-align: center;
     background-color: #f5f5f5;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#botaoComecar{
-    background-color: #195E27;
+#botaoComecar {
+    background-color: #195e27;
     border-radius: 25px;
     color: white;
     width: 150px;
@@ -75,45 +77,42 @@ body, header, footer{
 }
 
 /*Icone*/
-li{
-    list-style: none; 
+li {
+    list-style: none;
 }
-.icon{
+.icon {
     display: flex;
     vertical-align: text-top;
 }
-.icon.checkmark::before{
+.icon.checkmark::before {
     font-family: "Font Awesome 5 Free";
-    content: '\f00c';
+    content: "\f00c";
     font-weight: 900;
     margin-right: 15px;
 }
 
 /*Rodapé*/
-footer{
+footer {
     padding: 1% 0% 1% 0%;
 }
-#rodape1, #rodape2{
+#rodape1,
+#rodape2 {
     max-width: 60%;
 }
-.centro{
+.centro {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-@media (max-width: 480px){
-
-    #textoCapa{
+@media (max-width: 480px) {
+    #textoCapa {
         margin: 40px 30px 0px 40px;
-    
     }
 }
 
-@media (max-width: 980px){
-   
-    .logo{
+@media (max-width: 980px) {
+    .logo {
         max-width: 35%;
-    }  
+    }
 }

@@ -110,3 +110,9 @@ $(document).on('click', '.botaoComecar', function (e) {
   e.preventDefault();
   $('html,body').animate({ scrollTop: ($("#topico1").offset().top) }, 500);
 });
+
+//Carregamento do header e do footer em todas as paginas
+$(function () {
+  $("#header").load("../../header.html");
+  $("#footer").load("../../footer.html");
+});
