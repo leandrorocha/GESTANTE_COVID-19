@@ -690,6 +690,7 @@ img {
     background-color: #85a550;
     margin: 0px !important;
     max-width: 100%;
+    height: 217px;
 }
 #proxima a,
 #anterior a {
@@ -702,7 +703,7 @@ img {
 #proxima,
 #anterior {
     color: white;
-    padding: 2% 15% 0% 15%;
+    padding: 2% 10% 0% 10%;
 }
 #proxima p,
 #anterior p {
