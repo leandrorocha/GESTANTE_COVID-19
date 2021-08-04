@@ -73,6 +73,12 @@ footer {
     justify-content: center;
     margin-top: 45px;
     margin-bottom: 65px;
+    transition: 0.2s;
+    opacity: 1;
+}
+
+#botaoComecar:hover {
+    opacity: 0.6;
 }
 
 /*Icone*/

@@ -748,7 +748,7 @@ footer {
         width: 50%;
         height: 100%;
         background-color: #f5f5f5;
-        position: fixed;
+        
         z-index: 1;
         overflow: auto;
         display: block;
@@ -831,9 +831,30 @@ footer {
     align-items: center;
     justify-content: center;
     margin-bottom: 65px;
+    transition: 0.2s;
+    opacity: 1;
 }
 .botaoComecar:hover {
-    color: #2e4057;
+    opacity: 0.6;
+    color: #FFFFFF;
+}
+
+.botaoAvaliacao {
+    background-color: #85A550;
+    border-radius: 25px;
+    color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 65px;
+    transition: 0.2s;
+    opacity: 1;
+}
+.botaoAvaliacao:hover {
+    opacity: 0.6;
+    color: #FFFFFF;
 }
 
 .botaoAVA {
