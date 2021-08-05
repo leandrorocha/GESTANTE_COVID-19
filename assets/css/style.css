@@ -719,8 +719,14 @@ img {
 
 /*Rodapé*/
 footer {
-    padding: 1% 0% 1% 0%;
+    padding: 0% 4% 0% 4% !important;
+    margin-bottom: 10%;
 }
+
+footer img {
+    margin-bottom: 0!important;
+}
+
 #rodape1,
 #rodape2 {
     max-width: 60%;
