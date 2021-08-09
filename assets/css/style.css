@@ -27,7 +27,7 @@ footer {
     color: white;
 }
 .navbar-light .navbar-toggler {
-    border-color: #DDDDDD;
+    border-color: #dddddd;
 }
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -312,7 +312,7 @@ footer {
     margin-bottom: 50px !important;
     margin-top: 50px !important;
 }
-.col-md-2 {
+.sidemenu.col-md-2 {
     transition: all 0.2s;
     padding-left: 0px !important;
     background-color: #f5f5f5;
@@ -723,12 +723,21 @@ img {
 
 /*Rodapé*/
 footer {
-    padding: 0% 4% 0% 4% !important;
+    padding: 0 0 0 5%;
     margin-bottom: 10%;
 }
 
 footer img {
-    margin-bottom: 0 !important;
+    margin-bottom: 10px !important;
+}
+
+.separador-logo {
+    border-left: 2px solid silver;
+}
+@media (max-width: 767px) {
+    .separador-logo {
+        border-left: none;
+    }
 }
 
 #rodape1,
@@ -753,7 +762,6 @@ footer img {
     .divisaoTopico {
         height: 60px;
     }
-
     .stepContainer {
         width: 50%;
         height: 100%;
@@ -780,7 +788,6 @@ footer img {
     .carousel-control-prev {
         margin: 60px;
     }
-
     .imgPersonagem img {
         max-width: 100px;
     }
@@ -870,7 +877,7 @@ footer img {
 .botaoMatricula {
     background-color: #195e27;
     border-radius: 25px;
-    color: #FFFFFF;
+    color: #ffffff;
     width: 150px;
     height: 40px;
     display: flex;

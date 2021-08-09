@@ -98,7 +98,16 @@ li {
 
 /*Rodapé*/
 footer {
-    padding: 1%;
+    margin: 50px 0;
+    padding: 0 5%;
+}
+.separador-logo {
+    border-left: 2px solid silver;
+}
+@media (max-width: 767px) {
+    .separador-logo {
+        border-left: none;
+    }
 }
 #rodape1,
 #rodape2 {
