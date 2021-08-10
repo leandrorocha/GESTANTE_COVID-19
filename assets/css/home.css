@@ -109,10 +109,7 @@ footer {
         border-left: none;
     }
 }
-#rodape1,
-#rodape2 {
-    max-width: 60%;
-}
+
 .centro {
     display: flex;
     justify-content: center;
