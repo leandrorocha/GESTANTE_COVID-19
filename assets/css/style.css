@@ -735,6 +735,10 @@ footer img {
     border-left: 2px solid silver;
 }
 @media (max-width: 767px) {
+    footer {
+        padding: 0 2% 0 2%;
+        margin-bottom: 10%;
+    }
     .separador-logo {
         border-left: none;
     }
