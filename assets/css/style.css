@@ -1095,7 +1095,11 @@ footer img {
     font-weight: bold;
     font-size: 20px;
 }
-
 .w-80 {
     width: 80% !important;
+}
+.ordinalCaracter {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+        Courier New, monospace, serif;
+    color: #212529;
 }
