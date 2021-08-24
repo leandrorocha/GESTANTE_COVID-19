@@ -26,6 +26,10 @@ footer {
 .navbar-nav li a {
     color: white;
 }
+.navbar-nav > li.active > a {
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+}
 .navbar-light .navbar-toggler {
     border-color: #dddddd;
 }
@@ -842,7 +846,8 @@ footer img {
     align-items: center;
     justify-content: center;
 }
-.botaoComecar {
+.botaoComecar,
+.botaoVoltar {
     background-color: #195e27;
     border-radius: 25px;
     color: white;
@@ -855,7 +860,8 @@ footer img {
     transition: 0.2s;
     opacity: 1;
 }
-.botaoComecar:hover {
+.botaoComecar:hover,
+.botaoVoltar:hover {
     opacity: 0.6;
     color: #ffffff;
 }

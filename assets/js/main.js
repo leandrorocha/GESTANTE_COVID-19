@@ -111,7 +111,6 @@ $(function () {
 
 /* Rola tela para o Inicio da Aula*/
 $(document).on('click', '.botaoComecar', function (e) {
-  console.log('ORIGINAL')
   e.preventDefault();
   $('html,body').animate({ scrollTop: ($("#topico1").offset().top) }, 500);
 });

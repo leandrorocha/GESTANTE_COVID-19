@@ -11,8 +11,9 @@
     <!-- Arquivos CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="assets/libs/bootstrap-4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/libs/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
@@ -24,8 +25,13 @@
         }
 
         h1 {
-            font-size: 18px !important;
+            font-size: 2.625rem !important;
             margin-top: 0px !important;
+            margin-bottom: 60px;
+        }
+
+        .row {
+            margin: 10px !important;
         }
 
         .conteudo {
@@ -36,65 +42,255 @@
 
 <body>
 
-    <div class="row" id="row-main">
+    <!-- Menu Superior -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <img src="assets/images/home/logoFiocruzBranco.png" class="img-fluid logo" alt="Fiocruz" />
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li><a href="/">HOME</a></li>
+                    <li class="active"><a href="materialcomplementar.html" target="_self">Material Complementar</a></li>
+                    <li><a href="bibliografia.html" target="_self">Bibliografia</a></li>
+                    <li><a href="creditos.html" target="_self">Créditos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Fim Menu Superior -->
+
+    <div class="row shadow-sm" id="row-main">
         <div class="col-md-12">
             <div class="conteudo">
 
                 <h1>Material Complementar</h1>
+                <a href="" target="_blank"></a>
 
-                <p>Cartilha – Atenção à Saúde da Pessoa e Covid-19<br>
-                    <a href="http://editora.ufrpe.br/cartilha_covid-19"
-                        target="_blank">http://editora.ufrpe.br/cartilha_covid-19</a>
-                </p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-sm-6 centro">
+                                    <div class="cardImg">
+                                        <img src="../assets/images/material_complementar/material_complementar1.png"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 centro">
+                                    <a class="links"
+                                        href="https://docs.bvsalud.org/biblioref/2021/05/1179850/manual-instrutivo-para-a-assistencia-a-gestante-e-puerpera-fre_zVNq7Ij.pdf"
+                                        target="_blank">Manual de recomendações para a assistência à gestante e
+                                        puérpera frente à pandemia de Covid-19</a>
+                                </div>
+                            </div>
+                        </div>
 
-                <p>Cartilha - Cuidados com idosos em tempos de Coronavírus<br>
-                    <a href="http://repositoriocovid19.unb.br/repositorio-produtos/cuidados-com-idosos-em-tempos-de-coronavirus/"
-                        target="_blank">http://repositoriocovid19.unb.br/repositorio-produtos/cuidados-com-idosos-em-tempos-de-coronavirus/</a>
-                </p>
+                        <div class="col">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-sm-6 centro">
+                                    <div class="cardImg">
+                                        <img src="../assets/images/material_complementar/material_complementar2.png"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 centro">
+                                    <a class="links"
+                                        href="http://www.ihu.unisinos.br/159-noticias/entrevistas/607602-a-situacao-de-fragilizacao-dos-povos-tradicionais-se-intensificou-com-a-irrupcao-da-pandemia-do-novo-coronavirus-entrevista-especial-com-thais-mantovanelli"
+                                        target="_blank">A situação de fragilização dos povos tradicionais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                <p>Cartilha De Quem é o SUS?” Medicina-UFMG<br>
-                    <a href="https://www.medicina.ufmg.br/wp-content/uploads/sites/7/2020/05/Cartilha-SUS-final.pdf"
-                        target="_blank">https://www.medicina.ufmg.br/wp-content/uploads/sites/7/2020/05/Cartilha-SUS-final.pdf</a>
-                </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-sm-6 centro">
+                                    <div class="cardImg">
+                                        <img src="../assets/images/material_complementar/material_complementar3.png"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 centro">
+                                    <a class="links"
+                                        href="https://bvsms.saude.gov.br/bvs/publicacoes/politica_saude_indigena.pdf"
+                                        target="_blank">Política Nacional de Atenção à Saúde dos Povos Indígenas</a>
+                                </div>
+                            </div>
+                        </div>
 
-                <p>Cartilha SUAS Modos de Usar<br>
-                    <a href="https://www.sigas.pe.gov.br/files/08032020023924-cartilha.suas.modo.de.usar.formato.normal.atualizado.pdf"
-                        target="_blank">https://www.sigas.pe.gov.br/files/08032020023924-cartilha.suas.modo.de.usar.formato.normal.atualizado.pdf</a>
-                </p>
+                        <div class="col">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-sm-6 centro">
+                                    <div class="cardImg">
+                                        <img src="../assets/images/material_complementar/material_complementar4.png"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 centro">
+                                    <a class="links"
+                                        href="https://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_saude_populacao_negra_3d.pdf"
+                                        target="_blank">Política Nacional de Saúde Integral da População Negra</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                <p>Dicas de exercícios para idosos durante o isolamento<br>
-                    <a href="https://idososcovid19.fiocruz.br/sites/idososcovid19.fiocruz.br/files/cartilhafinal-unioeste.pdf"
-                        target="_blank">https://idososcovid19.fiocruz.br/sites/idososcovid19.fiocruz.br/files/cartilhafinal-unioeste.pdf</a>
-                </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-sm-6 centro">
+                                    <div class="cardImg">
+                                        <img src="../assets/images/material_complementar/material_complementar5.png"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 centro">
+                                    <a class="links" href="https://www.un.org/esa/socdev/unpfii/documents/DRIPS_pt.pdf"
+                                        target="_blank">Declaração das Nações Unidas sobre os Direitos dos Povos
+                                        Indígenas</a>
+                                </div>
+                            </div>
+                        </div>
 
-                <p>Idosos nos domicílios, pandemia e procedimentos pós-abertura<br>
-                    <a href="https://idososcovid19.fiocruz.br/sites/idososcovid19.fiocruz.br/files/cartilha_idosos_em_domicilios_pandemia_e_procedimentos_pos-abertura_._coordenacao_de_projetos_de_extensao_da_unati.uerj_.novembro.2020_2.pdf"
-                        target="_blank">https://idososcovid19.fiocruz.br/sites/idososcovid19.fiocruz.br/files/cartilha_idosos_em_domicilios_pandemia_e_procedimentos_pos-abertura_._coordenacao_de_projetos_de_extensao_da_unati.uerj_.novembro.2020_2.pdf</a>
-                </p>
+                        <div class="col">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-sm-6 centro">
+                                    <div class="cardImg">
+                                        <img src="../assets/images/material_complementar/material_complementar6.png"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 centro">
+                                    <a class="links"
+                                        href="https://bvsms.saude.gov.br/bvs/publicacoes/politicas_saude_primaria_brasil_saude_indigena.pdf"
+                                        target="_blank">Programa de Qualificação de Agentes Indígenas de Saúde (AIS)
+                                        e Agentes Indígenas de Saneamento (AISAN)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                <p>Orientações para cuidadores domiciliares de pessoa idosa na epidemia do Coronavírus – Covid-19<br>
-                    <a href="http://www.epsjv.fiocruz.br/sites/default/files/files/CartilhaCuidadorIdoso_Covid-19.pdf"
-                        target="_blank">http://www.epsjv.fiocruz.br/sites/default/files/files/CartilhaCuidadorIdoso_Covid-19.pdf</a>
-                </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-sm-6 centro">
+                                    <div class="cardImg">
+                                        <img src="../assets/images/material_complementar/material_complementar7.png"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 centro">
+                                    <a class="links"
+                                        href="https://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_saude_populacoes_campo.pdf"
+                                        target="_blank">Política Nacional de Saúde Integral das Populações do Campo e da
+                                        Floresta</a>
+                                </div>
+                            </div>
+                        </div>
 
-                <p>Covid-19: preservar a vida é o melhor presente neste fim de ano<br>
-                    <a href="https://portal.fiocruz.br/coronavirus/material-para-download "
-                        target="_blank">https://portal.fiocruz.br/coronavirus/material-para-download</a>
-                </p>
+                        <div class="col">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-sm-6 centro">
+                                    <div class="cardImg">
+                                        <img src="../assets/images/material_complementar/material_complementar8.png"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 centro">
+                                    <a class="links"
+                                        href="https://www.nescon.medicina.ufmg.br/biblioteca/imagem/Malaria-Atencao-Primaria-Saude_05_11_2020%20_ATUALIZADO.pdf"
+                                        target="_blank">Malária na Atenção Primária à Saúde</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                <p>Covid-19 e a necessidade de maior atenção ao idoso<br>
-                    <a href="https://www.youtube.com/watch?v=TEu0Ly8HTHs"
-                        target="_blank">https://www.youtube.com/watch?v=TEu0Ly8HTHs</a>
-                </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-sm-6 centro">
+                                    <div class="cardImg">
+                                        <img src="../assets/images/material_complementar/material_complementar9.png"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 centro">
+                                    <a class="links"
+                                        href="https://portais.univasf.edu.br/covid-19/covid-19/producao-cientifica/livro-ecologia-humana-pandemias-web.pdf"
+                                        target="_blank">Ecologia Humana & Epidemias</a>
+                                </div>
+                            </div>
+                        </div>
 
-                <p>SUS de A a Z<br>
-                    <a href="https://pensesus.fiocruz.br/sus-a-z"
-                        target="_blank">https://pensesus.fiocruz.br/sus-a-z</a>
-                </p>
+                        <div class="col">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-sm-6 centro">
+                                    <div class="cardImg">
+                                        <img src="../assets/images/material_complementar/material_complementar10.png"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 centro">
+                                    <a class="links"
+                                        href="https://www.gov.br/mdh/pt-br/centrais-de-conteudo/igualdade-racial/caderno-de-debates-povos-e-comunidades-tradicionais-de-matriz-africana.pdf"
+                                        target="_blank">Povos e comunidades tradicionais de matriz africana</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="row">
+                        <div class="col">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-sm-6 centro">
+                                    <div class="cardImg">
+                                        <img src="../assets/images/material_complementar/material_complementar11.png"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 centro">
+                                    <a class="links"
+                                        href="http://conaq.org.br/wp-content/uploads/2020/04/CARTILHA-Renda-B%C3%A1sica-Emergencial.pdf"
+                                        target="_blank">Cartilha da CONAQ sobre o Auxílio Emergencial</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-sm-6 centro">
+                                    <div class="cardImg">
+                                        <img src="../assets/images/material_complementar/material_complementar12.png"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 centro">
+                                    <a class="links"
+                                        href="http://conaq.org.br/wp-content/uploads/2020/04/CARTILHA-como-prevenir-a-prolifera%C3%A7%C3%A3o-do-Coronav%C3%ADrus-nos-quilombos_altera%C3%A7%C3%B5es_ford.pdf"
+                                        target="_blank">Como prevenir a proliferação do coronavírus nos quilombos?</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <!-- Botão p/ expandir aula -->
+            <div class="row botao">
+                <a href="/" class="btn botaoVoltar" type="a">VOLTAR</a>
             </div>
         </div>
     </div>
+
+    <!-- Inicio Rodapé -->
+    <footer id="footer"></footer>
+    <!-- Fim Rodapé -->
 
     <!-- Arquivos JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
